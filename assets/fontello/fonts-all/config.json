@@ -1,0 +1,70 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "bf882b30900da12fca090d9796bc3030",
+      "css": "mail",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "6a9f3405aba67bcaee81e7ea38946b27",
+      "css": "mobile",
+      "code": 59393,
+      "src": "linecons"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location",
+      "code": 59395,
+      "src": "elusive"
+    },
+    {
+      "uid": "2d6150442079cbda7df64522dc24f482",
+      "css": "down-dir",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "25a81737628d1e654a30ad412d7d6dd7",
+      "css": "align-justify",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "1884ff7f89cc02840606d28f9bcf930a",
+      "css": "skype",
+      "code": 59398,
+      "src": "zocial"
+    },
+    {
+      "uid": "e9e96618b0f44170930f9b179237c76e",
+      "css": "linkedin-rect",
+      "code": 62235,
+      "src": "brandico"
+    },
+    {
+      "uid": "8045477f6a7ef0bd7caff130ad25b88d",
+      "css": "facebook-rect",
+      "code": 62209,
+      "src": "brandico"
+    },
+    {
+      "uid": "4c01f5d3ba5fbf029bca8630cce41e6a",
+      "css": "twitter-bird",
+      "code": 62211,
+      "src": "brandico"
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.top-bar{
+    width:100%;
+    height:60px;
+    background:black;
+}
+.top-bar-container{
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+    display:flex;
+    padding-top:10px;
+    position:relative;
+}
+.top-bar-container .logo{
+    width:50px;
+    height:50px;
+    margin-left:10px;
+}
+.top-bar-container .logo img{
+    width:100%;
+    height:100%;
+}
+.top-bar-container h4{
+    color:fff;
+    margin-left:20px;
+    margin-top:15px;
+    text-transform: uppercase;
+}
+.top-bar-container .icon-align-justify{
+    position:absolute;
+    right:10px;
+    top:20px;
+    color:#fff;
+    font-size:25px;
+    cursor:pointer;
+}
+.icon-align-justify:hover{
+    color:rgb(118, 118, 180);
+}
+
+
+/*BANNER*/
+
+.banner{
+    width:100%;
+    height:400px;
+    max-height:400px;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size:200%;
+    animation:moving-photo 30s infinite linear alternate;
+}
+@keyframes moving-photo{
+    from{
+        background-position:bottom right;
+    }to{
+        background-position: top left;
+    }
+}
+
+
+.banner-cover{
+    height:400px;
+    max-height:400px;
+    width:100%;
+    position:absolute;        
+    background:rgb(62, 62, 133);
+    opacity:0.5; 
+}
+.banner-text{
+    width:100%;
+    max-width:1300px;
+    position: relative;
+    margin:auto;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:80px;
+}
+.banner-text-container{
+    width:100%;
+    max-width:650px;
+    color:#fff;
+}
+.banner-text-container h1{
+    margin-bottom:20px;
+    text-align:left;
+    
+}
+.banner-text-container p{
+    font-size:16px;
+}
+.btn1{
+    color:#fff;
+    background:transparent;
+    border:1px solid #dadada;
+    width:90px;
+    height:30px;
+    cursor:pointer;
+    transition:all 300ms;
+    display:block;
+    margin:auto;
+    margin-top:40px;
+}
+.btn1:hover{
+    color:rgb(62, 62, 133);
+    background:#fff;
+    transition:all 300ms;
+}
+
+
+/*MENU*/
+
+.menu{
+    width:300px;
+    height:100%;
+    position:absolute;
+    top:0; 
+    right:-300px;
+    background:rgb(62, 62, 133);
+    padding-top:20px;
+    overflow-x: hidden;
+    
+}
+body{
+    transform:translateX(0);
+    transition:300ms;
+}
+.body2{
+    transform:translateX(-300px);
+    transition:300ms;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    text-transform: uppercase;
+    padding-top:20px;
+    padding-left:30px;
+    cursor:pointer;
+}
+.menu ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+.menu ul li a:hover{
+    color:rgb(118, 118, 180);
+}
+
+.menu ul li ul{
+    padding:20px;
+}
+.menu .icon-down-dir{
+    font-size:20px;
+}
+
+/*MAIN*/
+
+.container-main{
+    width:100%;
+    max-width:1300px;
+    margin:auto;
+    padding: 10px;
+}
+.container-main h2{
+    margin:30px 0 10px 0;
+    font-size:40px;
+}
+.container-main hr{
+    width:250px;
+    height:6px;
+    border:none;
+    border-radius:3px;
+    background:rgb(62, 62, 133);
+    margin-bottom:20px;
+}
+.container-main p{
+    margin-bottom:10px;
+}
+
+/*footer*/
+
+footer{
+    width:100%;
+    background:rgb(36, 35, 35);
+    
+}
+.footer-container{
+    max-width:1300px;
+    height:400px;
+    margin:auto;
+    margin-top:40px;
+    padding-top:30px;
+    color:#fff;
+    display:flex;
+}
+.footer-container .left-side{
+    width:50%;
+    text-align:left;
+    padding-right:50px;
+    padding-left:10px;
+}
+.footer-container .left-side p{
+    font-size:14px;
+    text-align:left;
+}
+.footer-container .left-side h2, 
+.footer-container .middle-side h2,
+.footer-container .right-side h2{
+    margin-bottom:50px;
+}
+.footer-container .middle-side{
+    width:25%;
+    padding-left:10px;
+    padding-right:20px;
+}
+.footer-container .middle-side ul{
+    list-style-type: none;
+}
+.footer-container .middle-side ul li{
+    font-size:30px;
+    padding-bottom:25px;    
+}
+.footer-container .middle-side ul li a{
+    text-decoration: none;
+    color:#fff;
+    display:flex;
+}
+.footer-container .middle-side ul li a p{
+    font-size:14px;
+    padding-top:10px;
+    margin-left:8px;
+    text-transform: uppercase;
+}
+.icon-skype{
+    color:#12A5F4;
+}
+.icon-linkedin-rect{
+    color:#4875B4;
+}
+.icon-facebook-rect{
+    color:#3b5998;
+}
+.icon-twitter-bird{
+    color:#00aced;
+}
+.footer-container .right-side{
+    width:25%;
+}
+.footer-container .right-side .icony{
+    font-size:18px;
+    padding-bottom:34px;
+    float:left;
+}
+
+
+
+
+
+
+
+
