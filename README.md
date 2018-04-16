@@ -1,0 +1,1 @@
+banner in move effect
